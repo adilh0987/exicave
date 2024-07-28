@@ -295,3 +295,49 @@ footer .social a {
     border-radius: 4px;
     font-size: 1em;
 }
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    header h1 {
+        font-size: 1.5em;
+    }
+    
+    nav ul {
+        text-align: center;
+    }
+    
+    nav ul li {
+        display: block;
+        margin: 0.5em 0;
+    }
+    
+    .hero h2 {
+        font-size: 2em;
+    }
+    
+    .hero p {
+        font-size: 1em;
+    }
+    
+    .grid {
+        display: block;
+    }
+    
+    .card {
+        width: 90%;
+        margin: 1em auto;
+    }
+    
+    .steps {
+        display: block;
+    }
+    
+    .step {
+        width: 90%;
+        margin: 1em auto;
+    }
+    
+    .newsletter-signup input[type="email"], .contact-us input[type="text"], .contact-us input[type="email"], .contact-us textarea {
+        width: 90%;
+    }
+}
