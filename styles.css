@@ -179,20 +179,7 @@ footer .social a {
     margin-top: 0.5em;
 }
 
-.news-item {
-    margin: 1em auto;
-    max-width: 600px;
-}
 
-.news-item h3 {
-    font-size: 1.5em;
-    color: #333;
-}
-
-.news-item p {
-    font-size: 1em;
-    color: #777;
-}
 
 .steps {
     display: flex;
