@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Your Thing - Exicave</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Exicave</h1>
+        <hr>
+        <nav>
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/about.html">About Us</a></li>
+                <li><a href="/showcase.html">Showcase</a></li>
+                <li><a href="/ayt.html">Add Your Thing</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="contact">
+            <h2>Add Your Thing</h2>
+            <p>Showcase your talent or product with us. Fill out the form below to get started!</p>
+            <form action="submit_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="description">Description:</label>
+                <textarea id="description" name="description" required></textarea>
+
+                <label for="image">Image URL:</label>
+                <input type="url" id="image" name="image" required>
+
+                <label for="link">Link:</label>
+                <input type="url" id="link" name="link" required>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>© 2024 Exicave (Adil Haneef). All rights reserved.</p>
+        <div class="social">
+            <a href="https://wa.me/+918891721743">WhatsApp</a>
+            <a href="https://www.instagram.com/adil_haneef_/">Instagram</a>
+        </div>
+    </footer>
+</body>
+</html>
