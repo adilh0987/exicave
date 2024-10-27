@@ -1,3 +1,4 @@
+/* Base styles */
 body {
     font-family: 'Helvetica Neue', Arial, sans-serif;
     color: #333;
@@ -6,6 +7,7 @@ body {
     line-height: 1.6;
 }
 
+/* Header styles */
 header {
     background: #fff;
     border-bottom: 1px solid #eee;
@@ -18,10 +20,12 @@ header h1 {
     font-size: 2em;
 }
 
+/* Navigation styles */
 nav ul {
     list-style: none;
     padding: 0;
     margin: 0;
+    text-align: center;
 }
 
 nav ul li {
@@ -35,6 +39,7 @@ nav ul li a {
     font-weight: bold;
 }
 
+/* Hero section styles */
 .hero {
     background: #f9f9f9;
     padding: 3em 1em;
@@ -53,7 +58,7 @@ nav ul li a {
 }
 
 .hero .btn {
-    background: #000000;
+    background: #000;
     border: none;
     color: #fff;
     padding: 0.75em 1.5em;
@@ -63,24 +68,26 @@ nav ul li a {
     margin-top: 1em;
 }
 
-.about, .showcase {
+/* Section styles */
+.about, .showcase, .featured-talents, .testimonials, .latest-news, .how-it-works, .upcoming-events, .blog-highlights, .partners, .newsletter-signup, .faqs, .contact-us {
     padding: 2em 1em;
     text-align: center;
 }
 
-.about h2, .showcase h2 {
+.about h2, .showcase h2, .featured-talents h2, .testimonials h2, .latest-news h2, .how-it-works h2, .upcoming-events h2, .blog-highlights h2, .partners h2, .newsletter-signup h2, .faqs h2, .contact-us h2 {
     font-size: 2em;
     margin-bottom: 1em;
     color: #555;
 }
 
-.about p {
-    max-width: 600px;
-    margin: 0 auto;
+.about p, .testimonial p, .contact p {
     font-size: 1.1em;
     color: #777;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
+/* Grid and card styles */
 .grid {
     display: flex;
     flex-wrap: wrap;
@@ -121,15 +128,22 @@ nav ul li a {
 }
 
 .card .btn {
-    background: #2f2f2f;
+    background: #000000;
     border: none;
     color: #fff;
     padding: 0.5em 1em;
     text-decoration: none;
     border-radius: 4px;
     font-size: 0.9em;
+    cursor: pointer;
+    margin-top: 1em;
 }
 
+.card .btn:hover {
+    background: #696969;
+}
+
+/* Footer styles */
 footer {
     background: #fff;
     border-top: 1px solid #eee;
@@ -148,18 +162,7 @@ footer .social a {
     text-decoration: none;
 }
 
-/* Additional styles for new sections */
-.featured-talents, .testimonials, .latest-news, .how-it-works, .upcoming-events, .blog-highlights, .partners, .newsletter-signup, .faqs, .contact-us {
-    padding: 2em 1em;
-    text-align: center;
-}
-
-.featured-talents h2, .testimonials h2, .latest-news h2, .how-it-works h2, .upcoming-events h2, .blog-highlights h2, .partners h2, .newsletter-signup h2, .faqs h2, .contact-us h2 {
-    font-size: 2em;
-    margin-bottom: 1em;
-    color: #555;
-}
-
+/* Testimonial styles */
 .testimonial {
     background: #f4f4f4;
     padding: 1em;
@@ -168,129 +171,16 @@ footer .social a {
     max-width: 600px;
 }
 
-.testimonial p {
-    font-size: 1.1em;
-    color: #555;
-}
-
 .testimonial h3 {
     font-size: 1em;
     color: #777;
     margin-top: 0.5em;
 }
 
-
-
-.steps {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.step {
-    border: 1px solid #eee;
-    margin: 1em;
-    padding: 1em;
-    text-align: center;
-    width: 200px;
-    background: #fff;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
-.step h3 {
-    font-size: 1.2em;
-    color: #333;
-    margin-bottom: 0.5em;
-}
-
-.step p {
-    font-size: 1em;
-    color: #777;
-}
-
-.partner-logos img {
-    margin: 0.5em;
-    max-width: 100px;
-    max-height: 100px;
-}
-
-.newsletter-signup form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.newsletter-signup input[type="email"] {
-    padding: 0.75em;
-    margin-bottom: 1em;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 1em;
-    width: 80%;
-    max-width: 400px;
-}
-
-.newsletter-signup button {
-    background: #007BFF;
-    border: none;
-    color: #fff;
-    padding: 0.75em 1.5em;
-    text-decoration: none;
-    border-radius: 4px;
-    font-size: 1em;
-}
-
-.faq {
-    margin: 1em auto;
-    max-width: 600px;
-}
-
-.faq h3 {
-    font-size: 1.5em;
-    color: #333;
-    margin-bottom: 0.5em;
-}
-
-.faq p {
-    font-size: 1em;
-    color: #777;
-}
-
-.contact-us form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.contact-us input[type="text"], .contact-us input[type="email"], .contact-us textarea {
-    padding: 0.75em;
-    margin-bottom: 1em;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 1em;
-    width: 80%;
-    max-width: 400px;
-}
-
-.contact-us button {
-    background: #007BFF;
-    border: none;
-    color: #fff;
-    padding: 0.75em 1.5em;
-    text-decoration: none;
-    border-radius: 4px;
-    font-size: 1em;
-}
-
 /* Responsive styles */
 @media (max-width: 768px) {
     header h1 {
         font-size: 1.5em;
-    }
-    
-    nav ul {
-        text-align: center;
     }
     
     nav ul li {
@@ -306,20 +196,11 @@ footer .social a {
         font-size: 1em;
     }
     
-    .grid {
+    .grid, .steps {
         display: block;
     }
     
-    .card {
-        width: 90%;
-        margin: 1em auto;
-    }
-    
-    .steps {
-        display: block;
-    }
-    
-    .step {
+    .card, .step {
         width: 90%;
         margin: 1em auto;
     }
@@ -328,6 +209,8 @@ footer .social a {
         width: 90%;
     }
 }
+
+/* Form and button styles */
 fieldset {
     border: 1px solid #ccc;
     padding: 10px;
@@ -344,8 +227,7 @@ label {
     margin: 10px 0 5px;
 }
 
-input[type="text"], 
-input[type="email"] {
+input[type="text"], input[type="email"] {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -365,132 +247,8 @@ button {
 button:hover {
     background-color: #45a049;
 }
-fieldset {
-    border: 1px solid #ccc;
-    padding: 10px;
-    border-radius: 5px;
-    margin: 20px 0;
-}
 
-.payment-details {
-    margin-top: 15px;
-}
-
-label {
-    display: block;
-    margin: 10px 0 5px;
-}
-
-input[type="text"], 
-input[type="email"] {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-button {
-    margin-top: 15px;
-    padding: 10px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 16px;
-}
-
-button:hover {
-    background-color: #45a049;
-}
-fieldset {
-    border: 1px solid #ccc;
-    padding: 10px;
-    border-radius: 5px;
-    margin: 20px 0;
-}
-
-.payment-details {
-    margin-top: 15px;
-}
-
-label {
-    display: block;
-    margin: 10px 0 5px;
-}
-
-input[type="text"], 
-input[type="email"] {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-button {
-    margin-top: 15px;
-    padding: 10px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 16px;
-}
-
-button:hover {
-    background-color: #45a049;
-}
-fieldset {
-    border: 1px solid #ccc;
-    padding: 10px;
-    border-radius: 5px;
-    margin: 20px 0;
-}
-
-.payment-details {
-    margin-top: 15px;
-}
-
-label {
-    display: block;
-    margin: 10px 0 5px;
-}
-
-input[type="text"], 
-input[type="email"] {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-button {
-    margin-top: 15px;
-    padding: 10px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 16px;
-}
-
-button:hover {
-    background-color: #45a049;
-}
-fieldset {
-    border: 1px solid #ccc;
-    padding: 10px;
-    border-radius: 5px;
-    margin: 20px 0;
-}
-
-.payment-details {
-    margin-top: 15px;
-}
-
-label {
-    display: block;
-    margin: 10px 0 5px;
-}    
+/* Chat section styles */
 .chat-section {
     margin-top: 40px;
     padding: 20px;
@@ -519,18 +277,7 @@ label {
     border-radius: 4px;
 }
 
-button {
-    padding: 10px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #45a049;
-}
+/* Explore people section styles */
 .explore-people {
     padding: 2em 1em;
     text-align: center;
@@ -559,27 +306,170 @@ button:hover {
     width: 300px;
 }
 
-button {
-    margin-left: 10px;
-    padding: 10px;
-    background-color: #007BFF;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #0056b3;
-}
-
 .people-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
-.card {
+/* Contact section styles */
+.contact {
+    padding: 2em 1em;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    margin: 2em auto;
+    max-width: 600px;
+}
+
+.contact h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+    color: #555;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact label {
+    margin: 10px 0 5px;
+    font-size: 1em;
+    color: #333;
+}
+
+.contact input[type="text"], .contact input[type="url"], .contact textarea {
+    padding: 0.75em;
+    margin-bottom: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1em;
+    width: 100%;
+    max-width: 400px;
+}
+
+.contact button {
+    background-color: #000000;
+    border: none;
+    color: #fff;
+    padding: 0.75em 1.5em;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background-color: #696969;
+}
+
+/* Payment form styles */
+#payment-form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#payment-form label {
+    font-weight: bold;
+    color: #333;
+}
+
+#payment-form input[type="text"],
+#payment-form input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#payment-form fieldset {
+    border: none;
+    margin-bottom: 15px;
+}
+
+#payment-form legend {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+#payment-form .payment-details {
+    display: none;
+    margin-top: 15px;
+}
+
+#payment-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#payment-form button:hover {
+    background-color: #9a9a9a;
+}
+
+.payment-section fieldset div {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.payment-section fieldset input[type="radio"] {
+    margin-right: 10px;
+}
+
+/* Mission section styles */
+.mission {
+    padding: 2em 1em;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.mission h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+    color: #555;
+}
+
+.mission p {
+    font-size: 1.1em;
+    color: #777;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Team section styles */
+.team {
+    padding: 2em 1em;
+    text-align: center;
+}
+
+.team h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+    color: #555;
+}
+
+.team .grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.team .card {
     border: 1px solid #eee;
     margin: 1em;
     padding: 1em;
@@ -588,4 +478,53 @@ button:hover {
     background: #fff;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.team .card:hover {
+    transform: translateY(-5px);
+}
+
+.team .card img {
+    max-width: 100%;
+    border-radius: 4px;
+}
+
+.team .card h3 {
+    font-size: 1.2em;
+    color: #333;
+    margin: 0.5em 0;
+}
+
+.team .card p {
+    color: #777;
+    font-size: 0.9em;
+    margin: 0.5em 0 1em;
+}
+
+/* Values section styles */
+.values {
+    padding: 2em 1em;
+    text-align: center;
+    background-color: #f9f9f9;
+}
+
+.values h2 {
+    font-size: 2em;
+    margin-bottom: 1em;
+    color: #555;
+}
+
+.values ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.values li {
+    font-size: 1.1em;
+    color: #777;
+    margin: 0.5em 0;
 }

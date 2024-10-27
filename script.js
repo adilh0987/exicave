@@ -1,4 +1,3 @@
-/ Sample data for talents/products with actual talent images
 const talents = [
     {
         name: "Artistic Drawing",
@@ -70,9 +69,20 @@ function displayTalents() {
         const description = document.createElement('p');
         description.textContent = talent.description;
 
+        // Create the Buy button
+        const buyButton = document.createElement('button');
+        buyButton.textContent = 'Buy';
+        buyButton.className = 'btn'; // Add a class for styling
+
+        // Add event listener to navigate to payment.html on click
+        buyButton.addEventListener('click', function() {
+            window.location.href = 'payment.html';
+        });
+
         card.appendChild(image);
         card.appendChild(title);
         card.appendChild(description);
+        card.appendChild(buyButton); // Append the Buy button to the card
 
         talentGrid.appendChild(card);
     });
@@ -91,45 +101,6 @@ document.addEventListener('DOMContentLoaded', function () {
             } else {
                 bankingDetails.style.display = 'none';
             }
-        }
-    });
-});
-document.addEventListener('DOMContentLoaded', function () {
-    const paymentForm = document.getElementById('payment-form');
-    const bankingDetails = document.getElementById('banking-details');
-    const walletDetails = document.getElementById('wallet-details');
-
-    paymentForm.addEventListener('change', function (event) {
-        if (event.target.name === 'payment-method') {
-            bankingDetails.style.display = 'none';
-            walletDetails.style.display = 'none';
-
-            if (event.target.value === 'net-banking') {
-                bankingDetails.style.display = 'block';
-            } else if (event.target.value === 'wallets') {
-                walletDetails.style.display = 'block';
-            }
-        }
-    });
-});
-document.addEventListener('DOMContentLoaded', function () {
-    const chatForm = document.getElementById('chat-form');
-    const messageDisplay = document.getElementById('message-display');
-    const chatMessageInput = document.getElementById('chat-message');
-
-    chatForm.addEventListener('submit', function (event) {
-        event.preventDefault(); // Prevent form submission
-        
-        const messageText = chatMessageInput.value;
-        
-        if (messageText.trim() !== "") {
-            const messageElement = document.createElement('div');
-            messageElement.className = 'message';
-            messageElement.textContent = messageText;
-
-            messageDisplay.appendChild(messageElement);
-            messageDisplay.scrollTop = messageDisplay.scrollHeight; // Scroll to the bottom
-            chatMessageInput.value = ""; // Clear the input
         }
     });
 });
