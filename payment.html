@@ -1,0 +1,41 @@
+<main>
+    <h2>Payment</h2>
+    <form id="payment-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <fieldset>
+            <legend>Choose Payment Method:</legend>
+            <div>
+                <input type="radio" id="net-banking" name="payment-method" value="net-banking" required>
+                <label for="net-banking">Net Banking</label>
+            </div>
+            <div>
+                <input type="radio" id="wallets" name="payment-method" value="wallets">
+                <label for="wallets">Wallets</label>
+            </div>
+            <div>
+                <input type="radio" id="cod" name="payment-method" value="cash-on-delivery">
+                <label for="cod">Cash on Delivery</label>
+            </div>
+        </fieldset>
+
+        <div id="banking-details" class="payment-details" style="display:none;">
+            <label for="bank-name">Bank Name:</label>
+            <input type="text" id="bank-name" name="bank-name" required>
+            <label for="account-number">Account Number:</label>
+            <input type="text" id="account-number" name="account-number" required>
+        </div>
+
+        <div id="wallet-details" class="payment-details" style="display:none;">
+            <label for="wallet-id">Wallet ID:</label>
+            <input type="text" id="wallet-id" name="wallet-id" required>
+        </div>
+
+        <button type="submit">Submit Payment</button>
+    </form>
+</main>
+
