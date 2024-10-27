@@ -177,39 +177,6 @@ footer .social a {
     margin-top: 0.5em;
 }
 
-/* Responsive styles */
-@media (max-width: 768px) {
-    header h1 {
-        font-size: 1.5em;
-    }
-    
-    nav ul li {
-        display: block;
-        margin: 0.5em 0;
-    }
-    
-    .hero h2 {
-        font-size: 2em;
-    }
-    
-    .hero p {
-        font-size: 1em;
-    }
-    
-    .grid, .steps {
-        display: block;
-    }
-    
-    .card, .step {
-        width: 90%;
-        margin: 1em auto;
-    }
-    
-    .newsletter-signup input[type="email"], .contact-us input[type="text"], .contact-us input[type="email"], .contact-us textarea {
-        width: 90%;
-    }
-}
-
 /* Form and button styles */
 fieldset {
     border: 1px solid #ccc;
@@ -246,70 +213,6 @@ button {
 
 button:hover {
     background-color: #45a049;
-}
-
-/* Chat section styles */
-.chat-section {
-    margin-top: 40px;
-    padding: 20px;
-    background-color: #f1f1f1;
-    border-radius: 5px;
-}
-
-.message-display {
-    max-height: 200px;
-    overflow-y: auto;
-    background-color: white;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    padding: 10px;
-    margin-bottom: 10px;
-}
-
-.message {
-    margin: 5px 0;
-}
-
-#chat-message {
-    width: calc(100% - 100px);
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-/* Explore people section styles */
-.explore-people {
-    padding: 2em 1em;
-    text-align: center;
-    background: #f9f9f9;
-}
-
-.explore-people h2 {
-    font-size: 2em;
-    margin-bottom: 1em;
-    color: #555;
-}
-
-.explore-people p {
-    color: #777;
-    font-size: 1.1em;
-}
-
-#search-form {
-    margin: 20px auto;
-}
-
-#search-input {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    width: 300px;
-}
-
-.people-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
 }
 
 /* Contact section styles */
@@ -502,29 +405,16 @@ button:hover {
     margin: 0.5em 0 1em;
 }
 
-/* Values section styles */
-.values {
-    padding: 2em 1em;
-    text-align: center;
-    background-color: #f9f9f9;
+/* Add this to your styles.css file */
+img {
+    width: 300px; /* Set your desired width */
+    height: 300px; /* Set your desired height */
+    object-fit: cover; /* Ensures the image covers the set dimensions without distortion */
 }
 
-.values h2 {
-    font-size: 2em;
-    margin-bottom: 1em;
-    color: #555;
-}
-
-.values ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    max-width: 600px;
-    margin: 0 auto;
-}
-
-.values li {
-    font-size: 1.1em;
-    color: #777;
-    margin: 0.5em 0;
+/* Add this to your styles.css file */
+.fixed-size-image {
+    width: 300px; /* Set your desired width */
+    height: 300px; /* Set your desired height */
+    object-fit: cover; /* Ensures the image covers the set dimensions without distortion */
 }

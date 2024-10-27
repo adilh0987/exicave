@@ -2,7 +2,7 @@ const talents = [
     {
         name: "Artistic Drawing",
         description: "A beautiful drawing showcasing creativity and skill.",
-        imageUrl: "https://images.unsplash.com/photo-1531270000992-7f5a8377e792?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDR8fGRyYXdpbmclMjBhbmltYWx8ZW58MHx8fHwxNjcwODc0NzMw&ixlib=rb-1.2.1&q=80&w=400" // Replace with your image URL
+        imageUrl: "https://i.pinimg.com/474x/76/3d/6a/763d6ae10caeee7bfcec3f5184f9210d.jpg" // Replace with your image URL
     },
     {
         name: "Handmade Jewelry",
