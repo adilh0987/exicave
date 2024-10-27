@@ -7,47 +7,47 @@ const talents = [
     {
         name: "Handmade Jewelry",
         description: "Unique handmade jewelry crafted with care.",
-        imageUrl: "https://images.unsplash.com/photo-1589511681975-6b334e3aa5a6?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDE2fHxoYW5kbWFkZSUyMGpld2VseXxlbnwwfHx8fDE2NzA4NzQ4MjQ&ixlib=rb-1.2.1&q=80&w=400"
+        imageUrl: "https://i.pinimg.com/474x/14/62/6c/14626cdca77eff91cbf06f65dded26aa.jpg"
     },
     {
         name: "Wooden Crafts",
         description: "Beautiful wooden crafts made from recycled materials.",
-        imageUrl: "https://images.unsplash.com/photo-1504384308090-c894r0t1r32k?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDE0fHxlbnwwfHx8fDE2NzA4NzQ4MzU&ixlib=rb-1.2.1&q=80&w=400"
+        imageUrl: "https://i.pinimg.com/564x/1b/05/bf/1b05bf9b03bebc9b3ae9b27e5584ef24.jpg"
     },
     {
         name: "Digital Art",
         description: "Stunning digital artwork created using graphic design software.",
-        imageUrl: "https://images.unsplash.com/photo-1597496460332-66e75de95137?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDEyfHxlbnwwfHx8fDE2NzA4NzQ4NDA&ixlib=rb-1.2.1&q=80&w=400"
+        imageUrl: "https://i.pinimg.com/564x/b8/da/21/b8da21fb57b1cfd23033759520351f50.jpg"
     },
     {
         name: "Pottery",
         description: "Handcrafted pottery with unique designs.",
-        imageUrl: "https://images.unsplash.com/photo-1506802474368-5a906b4d0cf7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fHBvdHRlcnl8ZW58MHx8fHwxNjcwODc0ODgw&ixlib=rb-1.2.1&q=80&w=400"
+        imageUrl: "https://i.pinimg.com/736x/77/bd/82/77bd82a4514f9962bc25d7a6b767d227.jpg"
     },
     {
         name: "Painting",
         description: "Vibrant paintings that capture emotion and beauty.",
-        imageUrl: "https://images.unsplash.com/photo-1501238286838-3e6baf4c3e2c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDIyfHxwYWludGluZ3xlbnwwfHx8fDE2NzA4NzQ4OTY&ixlib=rb-1.2.1&q=80&w=400"
+        imageUrl: "https://i.pinimg.com/474x/50/1f/55/501f5538b70172d094ec283e1bf87d4f.jpg"
     },
     {
         name: "Knitted Goods",
         description: "Warm and cozy knitted items made with love.",
-        imageUrl: "https://images.unsplash.com/photo-1510487630303-4f8f4d4a0a04?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDEwfHxrbnl0dGVkfGVufDB8fHx8MTY3MDg3NDkwMQ&ixlib=rb-1.2.1&q=80&w=400"
+        imageUrl: "https://i.pinimg.com/564x/0a/ce/aa/0aceaa58eca02820d6da453d42afefe9.jpg"
     },
     {
         name: "Sculpture",
         description: "Intricate sculptures made from various materials.",
-        imageUrl: "https://images.unsplash.com/photo-1601191142673-6b14325b0bc0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDE2fHxzY3VsdHR1cmV8ZW58MHx8fHwxNjcwODc0OTIx&ixlib=rb-1.2.1&q=80&w=400"
+        imageUrl: "https://i.pinimg.com/474x/b9/5a/85/b95a8525441ec4cafa8c4588211af6e2.jpg"
     },
     {
         name: "Photography",
         description: "Captivating photographs that tell a story.",
-        imageUrl: "https://images.unsplash.com/photo-1472809491955-929b6c74c60d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDE3fHxwaG90b2dyYXBoeXxlbnwwfHx8fDE2NzA4NzQ5Njc&ixlib=rb-1.2.1&q=80&w=400"
+        imageUrl: "https://i.pinimg.com/474x/56/da/92/56da92089c1f04af705534233ccf3f63.jpg"
     },
     {
         name: "Graphic Design",
         description: "Creative graphic designs for various purposes.",
-        imageUrl: "https://images.unsplash.com/photo-1587005861471-40f428ac1b80?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDIwfHxncmFwaGljJTIwZGVza2V8ZW58MHx8fHwxNjcwODc1MDA1&ixlib=rb-1.2.1&q=80&w=400"
+        imageUrl: "https://i.pinimg.com/474x/8c/02/55/8c02550d749f778ded3b5f840cda9901.jpg"
     }
 ];
 
