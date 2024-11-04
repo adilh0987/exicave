@@ -45,7 +45,12 @@
                     <input type="text" id="wallet-id" name="wallet-id" required>
                 </div>
 
-                <button type="submit">Submit Payment</button>
+                <button type="submit" onclick="showPaymentSuccess()">Submit Payment</button>
+                <script>
+                    function showPaymentSuccess() {
+                        alert('Payment Successful!');
+                    }
+                </script>
             </form>
         </section>
     </main>
@@ -56,5 +61,6 @@
             <a href="https://www.instagram.com/adil_haneef_/">Instagram</a>
         </div>
     </footer>
+
 </body>
 </html>
