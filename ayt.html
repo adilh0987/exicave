@@ -30,7 +30,7 @@
             <h2>Add Your Thing</h2>
             <p>Showcase your talent or product with us. <br>
              Fill out the form below to get started!</p>
-            <form action="submit_form.php" method="post">
+            <form action="submit_form.php" method="post" onsubmit="showSubmissionAlert(); return false;">
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" required>
 
@@ -41,10 +41,16 @@
                 <input type="url" id="image" name="image" required>
 
                 <label for="price">Price:</label>
-                <input type="price" id="price" name="price" required>
+                <input type="number" id="price" name="price" required>
 
                 <button type="submit">Submit</button>
             </form>
+            <script>
+                function showSubmissionAlert() {
+                    alert('Submitted for review');
+                    // Here you can add code to actually submit the form if needed
+                }
+            </script>
         </section>
 
     </main>
